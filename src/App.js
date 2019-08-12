@@ -14,7 +14,7 @@ class App extends Component {
       <div>
         <h1>Hello bots</h1>
         <ul className="conversation">
-        { feed.map( (entry, index) => <li className={entry.sender} key={index} >{ entry.sender } : { entry.text }</li> ) }
+        { feed.map( (entry, index) => <li className={entry.sender} key={index}>{ entry.sender } : { entry.text }</li> ) }
         </ul>
         <input type="text" onKeyDown={handleKeyDown}/>
       </div>

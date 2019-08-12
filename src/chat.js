@@ -25,7 +25,7 @@ const messageMiddleWare = () => next => action => {
     }
 };
 
-const initState = [{ text: "I'm Bots", sender: 'anonymous' }];
+const initState = [{ text: "hey, bots", sender: 'anonymous' }];
 
 const messageReducer = (state = initState, action) => {
     switch (action.type) {
